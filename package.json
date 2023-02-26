@@ -1,8 +1,8 @@
 {
-  "name": "com.pancake.__package_name__",
-  "displayName": "__Package_Name__",
-  "description": "__Package_Description__",
-  "version": "1.0.0",
+  "name": "com.pancake.reflection.metadata",
+  "displayName": "System.Reflection.Metadata",
+  "description": "This package provides a low-level .NET (ECMA-335) metadata reader and writer. It's geared for performance and is the ideal choice for building higher-level libraries that intend to provide their own object model, such as compilers",
+  "version": "5.0.0",
   "unity": "2021.3",
   "category": "pancake",
   "author": {
@@ -16,17 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:pancake-llc/__name_repo_contain_package__.git",
-    "directory": "__Package_Display_Name__"
+    "url": "git@github.com:pancake-llc/reflection-metadata.git",
+    "directory": "System.Reflection.Metadata"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@pancake-llc"
-  }/*,
-  "samples": [
-  {
-    "displayName": "__Sample Name__",
-    "description": "__Sample_Description__",
-    "path": "Samples~/__Name_Folder_Sample__"
   }
-]*/
 }
